@@ -18,10 +18,10 @@ namespace SoloLearn
             double price = 14.99D;
             decimal usaGDP = 20939999999.99M;
 
-            Console.WriteLine("My name is " + firstName + ". I am " + age + " years old.");
-            Console.WriteLine("When I was in school, I was told to get " + grade + " on my report card.");
-            Console.WriteLine("Currently it is: " + cat + " that I have a cat.");
-            Console.WriteLine("My grocery bill last week was $" + price + ". This week it was $" + usaGDP + ". Inflation is crazy.");
+            Console.WriteLine($"My name is {firstName}. I am {age} years old.");
+            Console.WriteLine($"When I was in school, I was told to get {grade} on my report card.");
+            Console.WriteLine($"Currently it is: {cat} that I have a cat.");
+            Console.WriteLine($"My grocery bill last week was ${price}. This week it was ${usaGDP}. Inflation is crazy.");
         }
     }
 }
